@@ -1,2 +1,3 @@
+npx ngh --dir dist/inf285-sp25/browser --cname=inf285-sp25.depstein.net
 ng build --configuration production
 ng deploy --repo https://github.com/uci-inf-285/inf285-sp25.git --cname=inf285-sp25.depstein.net --dir=dist/inf285-wi25/browser
