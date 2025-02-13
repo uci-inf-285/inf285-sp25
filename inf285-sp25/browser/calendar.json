@@ -1,0 +1,313 @@
+{
+	"defaults": {
+		"lecture" : {
+			"place": {
+					"label": "Topic"
+				}
+		},
+		"demo" : {
+			"place": {
+					"time": "16:00",
+					"duration": "60",
+					"label": "Coding Demo",
+					"location": "TBD",
+					"link": "TBD"
+				}
+		},
+		"officehours_daniel": {
+			"place": {
+					"time": "16:00",
+					"duration": "60",
+					"label": "Daniel Office Hours",
+					"location": "TBD",
+					"link": "TBD"
+				}
+		},
+		"assignment" : {
+			"due": "23:59"
+		}
+	},
+	"events" : [
+		{
+			"date": "2025-03-31",
+			"type": "lecture",
+			"title": "Programming: HTML & Web Accessibility"
+		},
+		{
+			"date": "2025-03-31",
+			"type": "demo",
+			"title": "Live Demo: HTML"
+		},
+		{
+			"date": "2025-04-02",
+			"type": "lecture",
+			"title": "Practice: Libraries & Frameworks"
+		},
+		{
+			"date": "2025-04-02",
+			"type": "officehours_daniel"
+		},
+		{
+			"date": "2025-04-04",
+			"type": "assignment",
+			"title": "A1",
+			"name": "Figma mockup",
+			"link": "assignments/a1#figma"
+		},
+		{
+			"date": "2025-04-07",
+			"type": "lecture",
+			"title": "Programming: CSS & Design Systems"
+		},
+		{
+			"date": "2025-04-07",
+			"type": "demo",
+			"title": "Live Demo: CSS & Design Systems"
+		},
+		{
+			"date": "2025-04-09",
+			"type": "lecture",
+			"title": "Practice: Version Control"
+		},
+		{
+			"date": "2025-04-09",
+			"type": "officehours_daniel"
+		},
+		{
+			"date": "2025-04-11",
+			"type": "assignment",
+			"title": "A1",
+			"name": "Code check-in",
+			"link": "assignments/a1#checkin"
+		},
+		{
+			"date": "2025-04-14",
+			"type": "lecture",
+			"title": "Programming: Variables, Loops, & Conditionals in JS"
+		},
+		{
+			"date": "2025-04-14",
+			"type": "demo",
+			"title": "Live Demo: Variables, Loops, Conditionals"
+		},
+		{
+			"date": "2025-04-16",
+			"type": "lecture",
+			"title": "Practice: Frontend vs. Backend Development"
+		},
+		{
+			"date": "2025-04-16",
+			"type": "officehours_daniel"
+		},
+		{
+			"date": "2025-04-18",
+			"type": "assignment",
+			"title": "A1",
+			"name": "Final submission",
+			"link": "assignments/a1#final"
+		},
+		{
+			"date": "2025-04-21",
+			"type": "absence",
+			"title": "Daniel in Japan"
+		},
+		{
+			"date": "2025-04-21",
+			"type": "lecture",
+			"title": "Programming: Data Structures & Functions in JS"
+		},
+		{
+			"date": "2025-04-21",
+			"type": "demo",
+			"title": "Recorded Demo: Data Structures & Functions"
+		},
+		{
+			"date": "2025-04-22",
+			"type": "absence",
+			"title": "Daniel in Japan"
+		},
+		{
+			"date": "2025-04-23",
+			"type": "absence",
+			"title": "Daniel in Japan"
+		},
+		{
+			"date": "2025-04-23",
+			"type": "lecture",
+			"title": "Practice: Interface Toolkits"
+		},
+		{
+			"date": "2025-04-23",
+			"type": "officehours_daniel",
+			"title": "Maybe Office Hours?"
+		},
+		{
+			"date": "2025-04-24",
+			"type": "absence",
+			"title": "Daniel in Japan"
+		},
+		{
+			"date": "2025-04-25",
+			"type": "absence",
+			"title": "Daniel in Japan"
+		},
+		{
+			"date": "2025-04-25",
+			"type": "assignment",
+			"title": "A2",
+			"name": "Hello, World!"
+		},
+		{
+			"date": "2025-04-26",
+			"type": "absence",
+			"title": "Daniel @ CHI"
+		},
+		{
+			"date": "2025-04-27",
+			"type": "absence",
+			"title": "Daniel @ CHI"
+		},
+		{
+			"date": "2025-04-28",
+			"type": "absence",
+			"title": "Daniel @ CHI"
+		},
+		{
+			"date": "2025-04-28",
+			"type": "lecture",
+			"title": "Programming: DOM Manipulation"
+		},
+		{
+			"date": "2025-04-28",
+			"type": "demo",
+			"title": "Recorded Demo: DOM Manipulation"
+		},
+		{
+			"date": "2025-04-29",
+			"type": "absence",
+			"title": "Daniel @ CHI"
+		},
+		{
+			"date": "2025-04-30",
+			"type": "absence",
+			"title": "Daniel @ CHI"
+		},
+		{
+			"date": "2025-04-30",
+			"type": "lecture",
+			"title": "Practice: Data Visualization"
+		},
+		{
+			"date": "2025-05-01",
+			"type": "absence",
+			"title": "Daniel @ CHI"
+		},
+		{
+			"date": "2025-05-02",
+			"type": "absence",
+			"title": "Daniel @ CHI"
+		},
+		{
+			"date": "2025-05-02",
+			"type": "assignment",
+			"title": "A2",
+			"name": "Schedule Summarization"
+		},
+		{
+			"date": "2025-05-05",
+			"type": "lecture",
+			"title": "Programming: TBD"
+		},
+		{
+			"date": "2025-05-05",
+			"type": "demo",
+			"title": "Live Demo: TBD"
+		},
+		{
+			"date": "2025-05-07",
+			"type": "lecture",
+			"title": "Practice: Databases and Storage"
+		},
+		{
+			"date": "2025-05-07",
+			"type": "officehours_daniel"
+		},
+		{
+			"date": "2025-05-09",
+			"type": "assignment",
+			"title": "A2",
+			"name": "Final submission"
+		},
+		{
+			"date": "2025-05-12",
+			"type": "lecture",
+			"title": "Programming: TBD"
+		},
+		{
+			"date": "2025-05-12",
+			"type": "demo",
+			"title": "Live Demo: TBD"
+		},
+		{
+			"date": "2025-05-14",
+			"type": "lecture",
+			"title": "Practice: Logins, Authentication, Personalization"
+		},
+		{
+			"date": "2025-05-14",
+			"type": "officehours_daniel"
+		},
+		{
+			"date": "2025-05-19",
+			"type": "officehours_daniel"
+		},
+		{
+			"date": "2025-05-21",
+			"type": "lecture",
+			"title": "Practice: Large Language Models"
+		},
+		{
+			"date": "2025-05-21",
+			"type": "officehours_daniel"
+		},
+		{
+			"date": "2025-05-23",
+			"type": "assignment",
+			"title": "A3",
+			"name": "Code check-in"
+		},
+		{
+			"date": "2025-05-26",
+			"type": "holiday",
+			"title": "Memorial Day"
+		},
+		{
+			"date": "2025-05-28",
+			"type": "lecture",
+			"title": "Practice: Beyond Web and Mobile"
+		},
+		{
+			"date": "2025-05-28",
+			"type": "officehours_daniel"
+		},
+		{
+			"date": "2025-06-02",
+			"type": "officehours_daniel"
+		},
+		{
+			"date": "2025-06-04",
+			"type": "lecture",
+			"title": "Practice: TBD"
+		},
+		{
+			"date": "2025-06-04",
+			"type": "officehours_daniel"
+		},
+		{
+			"date": "2025-06-06",
+			"type": "assignment",
+			"title": "A3",
+			"name": "Final submission"
+		}
+	]
+}
