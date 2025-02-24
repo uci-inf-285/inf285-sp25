@@ -9,16 +9,15 @@
 			"place": {
 					"time": "16:00",
 					"duration": "60",
-					"label": "Coding Demo",
 					"location": "TBD",
 					"link": "TBD"
 				}
 		},
 		"officehours_daniel": {
+			"title": "Daniel Office Hours",
 			"place": {
 					"time": "16:00",
 					"duration": "60",
-					"label": "Daniel Office Hours",
 					"location": "TBD",
 					"link": "TBD"
 				}
