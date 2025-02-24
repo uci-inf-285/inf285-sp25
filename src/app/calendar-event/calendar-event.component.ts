@@ -41,12 +41,17 @@ export class CalendarEventComponent {
         if('time' in this.event.places[i]) {
           let timestamp = this.event.places[i].time.split(':');
           startTime.setHours(timestamp[0], timestamp[1], 0, 0);
-          let startTimeStr = new Intl.DateTimeFormat("en-US", {hour:'numeric', minute:'numeric'}).format(startTime);
-          let endTime = new Date().setTime(startTime.getTime() + this.event.places[i].duration * 60 * 1000);
-          let endTimeStr = new Intl.DateTimeFormat("en-US", {hour:'numeric', minute:'numeric'}).format(endTime);
+          let startTimeStr = this.formatTime(startTime);
+          let endTime = new Date();
+          endTime.setTime(startTime.getTime() + this.event.places[i].duration * 60 * 1000);
+          let endTimeStr = this.formatTime(endTime);
           this.event.places[i].timeStr = startTimeStr + '-' + endTimeStr;
         }
       }
     }
+  }
+
+  formatTime(time:Date):string {
+    return (time.getHours()>12? (time.getHours()%12).toString(): time.getHours()) + ':' + time.getMinutes().toString().padStart(2, "0");
   }
 }

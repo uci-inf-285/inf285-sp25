@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { CalendarEventComponent } from '../calendar-event/calendar-event.component';
-// import moment from 'moment';
 
 @Component({
   selector: 'app-calendar',
@@ -19,14 +18,24 @@ export class CalendarComponent {
   	});
   }
 
+  //https://stackoverflow.com/questions/24500375/get-clients-gmt-offset-in-javascript
+  getTimezoneOffset() {
+	function z(n:any){return (n<10? '0' : '') + n}
+	var offset = new Date().getTimezoneOffset();
+	var sign = offset < 0? '+' : '-';
+	offset = Math.abs(offset);
+	return sign + z(offset/60 | 0) + z(offset%60);
+  }
+
   parseCalendar(calendar:any) {
-  	const typeOrder = ["holiday", "absence", "assignment", "lecture", "demo", "officehours_daniel"];
+  	const typeOrder = ["holiday", "absence", "assignment", "discussion", "lecture", "demo", "officehours_daniel", "officehours_weijun", "officehours_ziqi", "officehours_emily"];
 
     let events:any[] = calendar['events'];
 	this.defaults = calendar['defaults'];
     //Add date string to each event, specify that they're in Pacific time zone
+	//There's potentially some mess involving Daylight Savings, but hopefully that's dealt with...
     events = events.map((event) => {
-		event.date = new Date(event.date + " GMT-0700");
+		event.date = new Date(event.date + " GMT" + this.getTimezoneOffset());
 		return event;
 	});
 
@@ -45,7 +54,8 @@ export class CalendarComponent {
     today.setHours(0, 0, 0, 0);
 	while(start_date <= end_date) {
 		let todays_events:any[] = [];
-		while(events_index < events.length && events[events_index].date.getTime() == start_date.getTime()) {
+		//Compare the date rather than the time to account for Daylight Savings
+		while(events_index < events.length && events[events_index].date.toLocaleDateString() == start_date.toLocaleDateString()) {
 			todays_events.push(events[events_index]);
 			events_index++;
 		}
@@ -62,6 +72,7 @@ export class CalendarComponent {
 		start_date = new Date(start_date);
 		start_date.setDate(start_date.getDate() + 1);
 	}
+	console.log(calendar_dates);
 	this.calendar = calendar_dates;
   }
 }
