@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { CalendarEventComponent } from '../calendar-event/calendar-event.component';
+import { TimeUtils } from '../time-utils';
 
 @Component({
   selector: 'app-calendar',
@@ -18,15 +19,6 @@ export class CalendarComponent {
   	});
   }
 
-  //https://stackoverflow.com/questions/24500375/get-clients-gmt-offset-in-javascript
-  getTimezoneOffset() {
-	function z(n:any){return (n<10? '0' : '') + n}
-	var offset = new Date().getTimezoneOffset();
-	var sign = offset < 0? '+' : '-';
-	offset = Math.abs(offset);
-	return sign + z(offset/60 | 0) + z(offset%60);
-  }
-
   parseCalendar(calendar:any) {
   	const typeOrder = ["holiday", "absence", "assignment", "discussion", "lecture", "demo", "officehours_daniel", "officehours_weijun", "officehours_ziqi", "officehours_emily"];
 
@@ -35,7 +27,7 @@ export class CalendarComponent {
     //Add date string to each event, specify that they're in Pacific time zone
 	//There's potentially some mess involving Daylight Savings, but hopefully that's dealt with...
     events = events.map((event) => {
-		event.date = new Date(event.date + " GMT" + this.getTimezoneOffset());
+		event.date = new Date(event.date + " GMT" + TimeUtils.getTimezoneOffset());
 		return event;
 	});
 

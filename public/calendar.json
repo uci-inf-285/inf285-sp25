@@ -30,17 +30,20 @@
 		{
 			"date": "2025-03-31",
 			"type": "lecture",
-			"title": "Programming: HTML & Web Accessibility"
+			"title": "Programming: HTML",
+			"link": "lectures/03_31_25-html.pdf"
 		},
 		{
 			"date": "2025-03-31",
 			"type": "demo",
-			"title": "Live Demo: HTML"
+			"title": "Live Demo: HTML",
+			"link": "demos/03_31_25-html.zip"
 		},
 		{
 			"date": "2025-04-02",
 			"type": "lecture",
-			"title": "Practice: Libraries & Frameworks"
+			"title": "Practice: Version Control",
+			"link": "lectures/04_02_25-version_control.pdf"
 		},
 		{
 			"date": "2025-04-02",
@@ -66,7 +69,7 @@
 		{
 			"date": "2025-04-09",
 			"type": "lecture",
-			"title": "Practice: Version Control"
+			"title": "Practice: Libraries & Frameworks"
 		},
 		{
 			"date": "2025-04-09",
