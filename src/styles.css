@@ -186,11 +186,11 @@ blockquote {
 }
 
 tbd {
-	color: var(--color-secondary-1-0);
+	color: var(--color-secondary-2-0);
 }
 
 .tbd {
-	color: var(--color-secondary-1-0);
+	color: var(--color-secondary-2-0);
 }
 
 .emph {

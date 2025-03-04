@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import moment from 'moment';
+import { TimeUtils } from '../time-utils';
 
 @Component({
   selector: 'app-assignments',
@@ -31,12 +31,8 @@ export class AssignmentsComponent {
     let events:any[] = calendar['events'];
     //Add date string to each event
     events.map(e => {
-      let hhmm = calendar['defaults']['assignment']['due'].split(":");
-      let dueDate = moment(e['date']);
-      dueDate.hours(hhmm[0]);
-      dueDate.minutes(hhmm[1])
-      e['due'] = dueDate.format('dddd, MMMM Do, h:mma');
-      return e;
+      let due = new Date(e.date + " " + calendar['defaults'].assignment.due + " GMT" + TimeUtils.getTimezoneOffset());
+      e['dueStr'] = new Intl.DateTimeFormat("en-US", {month: "long", day: 'numeric', year: 'numeric', hour:'numeric', minute:'2-digit'}).format(due);
     });
     //Filter by type
     let assignmentList = events.filter(e => e['type'] == 'assignment');
@@ -47,6 +43,5 @@ export class AssignmentsComponent {
         }
       }
     }));
-    console.log(this.assignments);
   }
 }

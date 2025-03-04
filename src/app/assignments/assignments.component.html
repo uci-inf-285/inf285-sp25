@@ -8,9 +8,9 @@
                 @for(part of assignment.parts; track part) {
                     <li>
                         @if(part.link) {
-                            <a [href]="part.link">{{part.name}} (Due {{part.due}})</a>
+                            <a [href]="part.link">{{part.name}} (Due {{part.dueStr}})</a>
                         } @else {
-                            <span>{{part.name}} (Due {{part.due}})</span>
+                            <span>{{part.name}} (Due {{part.dueStr}})</span>
                         }
                     </li>
                 }

@@ -64,7 +64,6 @@ export class CalendarComponent {
 		start_date = new Date(start_date);
 		start_date.setDate(start_date.getDate() + 1);
 	}
-	console.log(calendar_dates);
 	this.calendar = calendar_dates;
   }
 }

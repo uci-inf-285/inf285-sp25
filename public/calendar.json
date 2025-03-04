@@ -53,8 +53,8 @@
 			"date": "2025-04-04",
 			"type": "assignment",
 			"title": "A1",
-			"name": "Figma mockup",
-			"link": "assignments/a1#figma"
+			"name": "Design Mockup",
+			"link": "assignments/a1#mockup"
 		},
 		{
 			"date": "2025-04-07",
@@ -69,7 +69,7 @@
 		{
 			"date": "2025-04-09",
 			"type": "lecture",
-			"title": "Practice: Libraries & Frameworks"
+			"title": "Practice: Interface Toolkits"
 		},
 		{
 			"date": "2025-04-09",
@@ -79,7 +79,7 @@
 			"date": "2025-04-11",
 			"type": "assignment",
 			"title": "A1",
-			"name": "Code check-in",
+			"name": "Code Check-in",
 			"link": "assignments/a1#checkin"
 		},
 		{
@@ -95,7 +95,7 @@
 		{
 			"date": "2025-04-16",
 			"type": "lecture",
-			"title": "Practice: Frontend vs. Backend Development"
+			"title": "Practice: Responsive Design"
 		},
 		{
 			"date": "2025-04-16",
@@ -136,7 +136,7 @@
 		{
 			"date": "2025-04-23",
 			"type": "lecture",
-			"title": "Practice: Interface Toolkits"
+			"title": "Practice: Frontend vs. Backend Development"
 		},
 		{
 			"date": "2025-04-23",
@@ -238,7 +238,7 @@
 			"date": "2025-05-09",
 			"type": "assignment",
 			"title": "A2",
-			"name": "Final submission"
+			"name": "Final Submission"
 		},
 		{
 			"date": "2025-05-12",
@@ -276,7 +276,7 @@
 			"date": "2025-05-23",
 			"type": "assignment",
 			"title": "A3",
-			"name": "Code check-in"
+			"name": "Code Check-in"
 		},
 		{
 			"date": "2025-05-26",
@@ -309,7 +309,7 @@
 			"date": "2025-06-06",
 			"type": "assignment",
 			"title": "A3",
-			"name": "Final submission"
+			"name": "Final Submission"
 		}
 	]
 }
