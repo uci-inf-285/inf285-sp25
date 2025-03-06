@@ -30,6 +30,12 @@
 		{
 			"date": "2025-03-31",
 			"type": "lecture",
+			"title": "Overview: What is This Course?",
+			"link": "lectures/03_31_25-overview.pdf"
+		},
+		{
+			"date": "2025-03-31",
+			"type": "lecture",
 			"title": "Programming: HTML",
 			"link": "lectures/03_31_25-html.pdf"
 		},
