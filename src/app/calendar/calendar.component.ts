@@ -27,7 +27,7 @@ export class CalendarComponent {
     //Add date string to each event, specify that they're in Pacific time zone
 	//There's potentially some mess involving Daylight Savings, but hopefully that's dealt with...
     events = events.map((event) => {
-		event.date = new Date(event.date + " GMT" + TimeUtils.getTimezoneOffset());
+		event.date = new Date(event.date + " GMT" + TimeUtils.getTimezoneOffset(event.date));
 		return event;
 	});
 
