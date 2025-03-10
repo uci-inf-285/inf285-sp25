@@ -12,7 +12,7 @@ export class TimeUtils {
             date = new Date(dateStr);
         }
         function z(n:any){return (n<10? '0' : '') + n}
-        var offset = new Date(date).getTimezoneOffset();
+        var offset = date.getTimezoneOffset();
         var sign = offset < 0? '+' : '-';
         offset = Math.abs(offset);
         return sign + z(offset/60 | 0) + z(offset%60);
