@@ -1,8 +1,14 @@
 export class TimeUtils {
-    date:Date;
 
-    constructor(date:Date = new Date()) {
-        this.date = date;
+    static createFromString(dateStr:string = '') {
+        //Works for Chrome to set in current time zone
+        let newDate = new Date(dateStr + " GMT" + TimeUtils.getTimezoneOffset(dateStr));
+        //If correct, assign
+		if(newDate instanceof Date && !isNaN(newDate as any)) {
+			return newDate;
+		} else { //This will work for Safari
+			return new Date(dateStr.replace(/-/g, "/"));
+		}
     }
 
     //https://stackoverflow.com/questions/24500375/get-clients-gmt-offset-in-javascript
@@ -18,7 +24,7 @@ export class TimeUtils {
         return sign + z(offset/60 | 0) + z(offset%60);
     }
 
-    formatTime():string {
-        return (this.date.getHours()>12? (this.date.getHours()%12).toString(): this.date.getHours()) + ':' + this.date.getMinutes().toString().padStart(2, "0");
-      }
+    static formatTime(date:Date):string {
+        return (date.getHours()>12? (date.getHours()%12).toString(): date.getHours()) + ':' + date.getMinutes().toString().padStart(2, "0");
+    }
 }

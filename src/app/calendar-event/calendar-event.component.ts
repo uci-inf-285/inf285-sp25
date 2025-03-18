@@ -42,10 +42,10 @@ export class CalendarEventComponent {
         if('time' in this.event.places[i]) {
           let timestamp = this.event.places[i].time.split(':');
           startTime.setHours(timestamp[0], timestamp[1], 0, 0);
-          let startTimeStr = new TimeUtils(startTime).formatTime();
+          let startTimeStr = TimeUtils.formatTime(startTime);
           let endTime = new Date();
           endTime.setTime(startTime.getTime() + this.event.places[i].duration * 60 * 1000);
-          let endTimeStr = new TimeUtils(endTime).formatTime();
+          let endTimeStr = TimeUtils.formatTime(endTime);
           this.event.places[i].timeStr = startTimeStr + '-' + endTimeStr;
         }
       }

@@ -22,7 +22,7 @@ export class HomepageComponent {
     let events:any[] = calendar['events'];
     //Add date string to each event
     events.map(e => {
-      e.date = new Date(e.date + " GMT" + TimeUtils.getTimezoneOffset());
+      e.date = TimeUtils.createFromString(e.date);
       e['dateStr'] = new Intl.DateTimeFormat('en-US', {weekday:'short', month:'short', day:'numeric'}).format(e.date);
       return e;
     });

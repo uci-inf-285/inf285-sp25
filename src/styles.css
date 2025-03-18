@@ -230,38 +230,34 @@ tbd {
 }
 
 .lecture {
-	background-color: #6699CC;
+	background-color: #9AC6C5;
 }
 
 .demo {
-	background-color: #8CB369;
+	background-color: #A5E6BA;
 }
 
 .holiday {
-	background-color: #FFF275;
+	background-color: #AC699D;
 }
 
 .assignment {
-	background-color: #967D69;
-}
-
-.quiz {
-	background-color: #FF8C42;
+	background-color: #DDAE7E;
 }
 
 .absence {
-	background-color: #F4B9B2;
+	background-color: #BCA3AC;
 	font-weight: 300;
 }
 
 .officehours_daniel {
-	background-color: #DAEDBD;
+	background-color: #C15D82;
 }
 
 .officehours_weijun {
-	background-color: #DAEDBD;
+	background-color: #C15D82;
 }
 
 .officehours_ziqi {
-	background-color: #DAEDBD;
+	background-color: #C15D82;
 }
