@@ -19,6 +19,9 @@
             }
         </div>
     }
+    @if(event.slides) {
+        <div><a [href]="event.slides">Slides</a></div>
+    }
     @if(event.demo) {
         <div><a [href]="event.demo">Demo Code</a></div>
     }

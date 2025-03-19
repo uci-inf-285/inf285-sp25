@@ -31,25 +31,26 @@
 			"date": "2025-03-31",
 			"type": "lecture",
 			"title": "Overview: What is This Course?",
-			"link": "lectures/03_31_25-overview.pdf"
+			"slides": "lectures/03_31_25-overview.pdf",
+			"link": "https://uci.yuja.com/V/Video?v=12609744&node=55134388&a=8719015"
 		},
 		{
 			"date": "2025-03-31",
 			"type": "lecture",
 			"title": "Programming: HTML",
-			"link": "lectures/03_31_25-html.pdf"
+			"slides": "lectures/03_31_25-html.pdf"
 		},
 		{
 			"date": "2025-03-31",
 			"type": "demo",
 			"title": "Live Demo: HTML",
-			"link": "demos/03_31_25-html.zip"
+			"demo": "demos/03_31_25-html.zip"
 		},
 		{
 			"date": "2025-04-02",
 			"type": "lecture",
 			"title": "Practice: Version Control",
-			"link": "lectures/04_02_25-version_control.pdf"
+			"slides": "lectures/04_02_25-version_control.pdf"
 		},
 		{
 			"date": "2025-04-02",
