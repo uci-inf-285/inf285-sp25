@@ -57,7 +57,7 @@
 			"type": "officehours_daniel"
 		},
 		{
-			"date": "2025-04-04",
+			"date": "2025-04-06",
 			"type": "assignment",
 			"title": "A1",
 			"name": "Design Mockup",
@@ -83,7 +83,7 @@
 			"type": "officehours_daniel"
 		},
 		{
-			"date": "2025-04-11",
+			"date": "2025-04-13",
 			"type": "assignment",
 			"title": "A1",
 			"name": "Code Check-in",
@@ -109,10 +109,10 @@
 			"type": "officehours_daniel"
 		},
 		{
-			"date": "2025-04-18",
+			"date": "2025-04-20",
 			"type": "assignment",
 			"title": "A1",
-			"name": "Final submission",
+			"name": "Full Project",
 			"link": "assignments/a1#final"
 		},
 		{
@@ -161,12 +161,6 @@
 			"title": "Daniel in Japan"
 		},
 		{
-			"date": "2025-04-25",
-			"type": "assignment",
-			"title": "A2",
-			"name": "Hello, World!"
-		},
-		{
 			"date": "2025-04-26",
 			"type": "absence",
 			"title": "Daniel @ CHI"
@@ -175,6 +169,12 @@
 			"date": "2025-04-27",
 			"type": "absence",
 			"title": "Daniel @ CHI"
+		},
+		{
+			"date": "2025-04-27",
+			"type": "assignment",
+			"title": "A2",
+			"name": "Hello, World!"
 		},
 		{
 			"date": "2025-04-28",
@@ -217,10 +217,10 @@
 			"title": "Daniel @ CHI"
 		},
 		{
-			"date": "2025-05-02",
+			"date": "2025-05-04",
 			"type": "assignment",
 			"title": "A2",
-			"name": "Schedule Summarization"
+			"name": "Course Report"
 		},
 		{
 			"date": "2025-05-05",
@@ -242,10 +242,10 @@
 			"type": "officehours_daniel"
 		},
 		{
-			"date": "2025-05-09",
+			"date": "2025-05-11",
 			"type": "assignment",
 			"title": "A2",
-			"name": "Final Submission"
+			"name": "Full Project"
 		},
 		{
 			"date": "2025-05-12",
@@ -280,7 +280,7 @@
 			"type": "officehours_daniel"
 		},
 		{
-			"date": "2025-05-23",
+			"date": "2025-05-25",
 			"type": "assignment",
 			"title": "A3",
 			"name": "Code Check-in"
@@ -313,10 +313,10 @@
 			"type": "officehours_daniel"
 		},
 		{
-			"date": "2025-06-06",
+			"date": "2025-06-08",
 			"type": "assignment",
 			"title": "A3",
-			"name": "Final Submission"
+			"name": "Full Project"
 		}
 	]
 }
