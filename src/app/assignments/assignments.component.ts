@@ -14,7 +14,7 @@ export class AssignmentsComponent {
       'name': 'Widget Factory in Adobe Spectrum',
       'parts': [] },
     {'title': 'A2',
-      'name': 'Enrollment Guide in JavaScript',
+      'name': 'Department Course Report in JavaScript',
       'parts': [] },
       {'title': 'A3',
         'name': 'Accessibility Browser Extension',
