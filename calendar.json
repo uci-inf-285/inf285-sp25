@@ -22,6 +22,24 @@
 					"link": "https://uci.zoom.us/j/93781269979"
 				}
 		},
+		"officehours_ziqi": {
+			"title": "Ziqi Office Hours",
+			"place": {
+					"time": "17:00",
+					"duration": "60",
+					"location": "Zoom",
+					"link": "https://uci.zoom.us/j/92210227443"
+				}
+		},
+		"officehours_weijun": {
+			"title": "Weijun Office Hours",
+			"place": {
+					"time": "16:00",
+					"duration": "60",
+					"location": "Zoom",
+					"link": "https://uci.zoom.us/j/3993699399"
+				}
+		},
 		"assignment" : {
 			"due": "23:59"
 		}
@@ -47,6 +65,10 @@
 			"demo": "demos/03_31_25-html.zip"
 		},
 		{
+			"date": "2025-04-01",
+			"type": "officehours_ziqi"
+		},
+		{
 			"date": "2025-04-02",
 			"type": "lecture",
 			"title": "Practice: Version Control",
@@ -55,6 +77,10 @@
 		{
 			"date": "2025-04-02",
 			"type": "officehours_daniel"
+		},
+		{
+			"date": "2025-04-04",
+			"type": "officehours_weijun"
 		},
 		{
 			"date": "2025-04-06",
@@ -74,6 +100,10 @@
 			"title": "Live Demo: CSS & Design Systems"
 		},
 		{
+			"date": "2025-04-08",
+			"type": "officehours_ziqi"
+		},
+		{
 			"date": "2025-04-09",
 			"type": "lecture",
 			"title": "Practice: Frontend vs. Backend Development"
@@ -81,6 +111,10 @@
 		{
 			"date": "2025-04-09",
 			"type": "officehours_daniel"
+		},
+		{
+			"date": "2025-04-11",
+			"type": "officehours_weijun"
 		},
 		{
 			"date": "2025-04-13",
@@ -100,6 +134,10 @@
 			"title": "Live Demo: Variables, Loops, Conditionals"
 		},
 		{
+			"date": "2025-04-15",
+			"type": "officehours_ziqi"
+		},
+		{
 			"date": "2025-04-16",
 			"type": "lecture",
 			"title": "Practice: Responsive and Adaptive Design"
@@ -107,6 +145,10 @@
 		{
 			"date": "2025-04-16",
 			"type": "officehours_daniel"
+		},
+		{
+			"date": "2025-04-18",
+			"type": "officehours_weijun"
 		},
 		{
 			"date": "2025-04-20",
@@ -118,7 +160,7 @@
 		{
 			"date": "2025-04-21",
 			"type": "absence",
-			"title": "Daniel in Japan"
+			"title": "Daniel, Weijun, Ziqi in Japan"
 		},
 		{
 			"date": "2025-04-21",
@@ -133,12 +175,17 @@
 		{
 			"date": "2025-04-22",
 			"type": "absence",
-			"title": "Daniel in Japan"
+			"title": "Daniel, Weijun, Ziqi in Japan"
+		},
+		{
+			"date": "2025-04-22",
+			"type": "officehours_ziqi",
+			"title": "Maybe Office Hours?"
 		},
 		{
 			"date": "2025-04-23",
 			"type": "absence",
-			"title": "Daniel in Japan"
+			"title": "Daniel, Weijun, Ziqi in Japan"
 		},
 		{
 			"date": "2025-04-23",
@@ -153,22 +200,27 @@
 		{
 			"date": "2025-04-24",
 			"type": "absence",
-			"title": "Daniel in Japan"
+			"title": "Daniel, Weijun, Ziqi in Japan"
 		},
 		{
 			"date": "2025-04-25",
 			"type": "absence",
-			"title": "Daniel in Japan"
+			"title": "Daniel, Weijun, Ziqi in Japan"
+		},
+		{
+			"date": "2025-04-25",
+			"type": "officehours_weijun",
+			"title": "Maybe Office Hours?"
 		},
 		{
 			"date": "2025-04-26",
 			"type": "absence",
-			"title": "Daniel @ CHI"
+			"title": "Daniel, Weijun, Ziqi @ CHI"
 		},
 		{
 			"date": "2025-04-27",
 			"type": "absence",
-			"title": "Daniel @ CHI"
+			"title": "Daniel, Weijun, Ziqi @ CHI"
 		},
 		{
 			"date": "2025-04-27",
@@ -179,7 +231,7 @@
 		{
 			"date": "2025-04-28",
 			"type": "absence",
-			"title": "Daniel @ CHI"
+			"title": "Daniel, Weijun, Ziqi @ CHI"
 		},
 		{
 			"date": "2025-04-28",
@@ -194,12 +246,12 @@
 		{
 			"date": "2025-04-29",
 			"type": "absence",
-			"title": "Daniel @ CHI"
+			"title": "Daniel, Weijun, Ziqi @ CHI"
 		},
 		{
 			"date": "2025-04-30",
 			"type": "absence",
-			"title": "Daniel @ CHI"
+			"title": "Daniel, Weijun, Ziqi @ CHI"
 		},
 		{
 			"date": "2025-04-30",
@@ -209,12 +261,12 @@
 		{
 			"date": "2025-05-01",
 			"type": "absence",
-			"title": "Daniel @ CHI"
+			"title": "Daniel, Weijun, Ziqi @ CHI"
 		},
 		{
 			"date": "2025-05-02",
 			"type": "absence",
-			"title": "Daniel @ CHI"
+			"title": "Daniel, Weijun, Ziqi @ CHI"
 		},
 		{
 			"date": "2025-05-04",
@@ -233,6 +285,10 @@
 			"title": "Live Demo: TBD"
 		},
 		{
+			"date": "2025-05-06",
+			"type": "officehours_ziqi"
+		},
+		{
 			"date": "2025-05-07",
 			"type": "lecture",
 			"title": "Practice: Data Visualization"
@@ -240,6 +296,10 @@
 		{
 			"date": "2025-05-07",
 			"type": "officehours_daniel"
+		},
+		{
+			"date": "2025-05-09",
+			"type": "officehours_weijun"
 		},
 		{
 			"date": "2025-05-11",
@@ -258,6 +318,10 @@
 			"title": "Live Demo: TBD"
 		},
 		{
+			"date": "2025-05-13",
+			"type": "officehours_ziqi"
+		},
+		{
 			"date": "2025-05-14",
 			"type": "lecture",
 			"title": "Practice: Databases and Storage"
@@ -267,8 +331,16 @@
 			"type": "officehours_daniel"
 		},
 		{
+			"date": "2025-05-16",
+			"type": "officehours_weijun"
+		},
+		{
 			"date": "2025-05-19",
 			"type": "officehours_daniel"
+		},
+		{
+			"date": "2025-05-20",
+			"type": "officehours_ziqi"
 		},
 		{
 			"date": "2025-05-21",
@@ -278,6 +350,10 @@
 		{
 			"date": "2025-05-21",
 			"type": "officehours_daniel"
+		},
+		{
+			"date": "2025-05-23",
+			"type": "officehours_weijun"
 		},
 		{
 			"date": "2025-05-25",
@@ -291,6 +367,10 @@
 			"title": "Memorial Day"
 		},
 		{
+			"date": "2025-05-27",
+			"type": "officehours_ziqi"
+		},
+		{
 			"date": "2025-05-28",
 			"type": "lecture",
 			"title": "Practice: Large Language Models"
@@ -300,8 +380,16 @@
 			"type": "officehours_daniel"
 		},
 		{
+			"date": "2025-05-30",
+			"type": "officehours_weijun"
+		},
+		{
 			"date": "2025-06-02",
 			"type": "officehours_daniel"
+		},
+		{
+			"date": "2025-06-03",
+			"type": "officehours_ziqi"
 		},
 		{
 			"date": "2025-06-04",
@@ -311,6 +399,10 @@
 		{
 			"date": "2025-06-04",
 			"type": "officehours_daniel"
+		},
+		{
+			"date": "2025-06-06",
+			"type": "officehours_weijun"
 		},
 		{
 			"date": "2025-06-08",
