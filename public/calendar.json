@@ -94,12 +94,15 @@
 		{
 			"date": "2025-04-07",
 			"type": "lecture",
-			"title": "Programming: CSS & Design Systems"
+			"title": "Programming: CSS & Design Systems",
+			"slides": "lectures/04_07_25-css_design_systems.pdf",
+			"link": "https://uci.yuja.com/V/Video?v=12653584&node=55259646&a=95691364"
 		},
 		{
 			"date": "2025-04-07",
 			"type": "demo",
-			"title": "Live Demo: CSS & Design Systems"
+			"title": "Live Demo: CSS & Design Systems",
+			"demo": "demos/04_07_25-css_design_systems.zip"
 		},
 		{
 			"date": "2025-04-08",
@@ -228,7 +231,7 @@
 			"date": "2025-04-27",
 			"type": "assignment",
 			"title": "A2",
-			"name": "Hello, World!"
+			"name": "Department Summary"
 		},
 		{
 			"date": "2025-04-28",
