@@ -94,12 +94,15 @@
 		{
 			"date": "2025-04-07",
 			"type": "lecture",
-			"title": "Programming: CSS & Design Systems"
+			"title": "Programming: CSS & Design Systems",
+			"slides": "lectures/04_07_25-css_design_systems.pdf",
+			"link": "https://uci.yuja.com/V/Video?v=12653584&node=55259646&a=95691364"
 		},
 		{
 			"date": "2025-04-07",
 			"type": "demo",
-			"title": "Live Demo: CSS & Design Systems"
+			"title": "Live Demo: CSS & Design Systems",
+			"demo": "demos/04_07_25-css_design_systems.zip"
 		},
 		{
 			"date": "2025-04-08",
@@ -228,7 +231,8 @@
 			"date": "2025-04-27",
 			"type": "assignment",
 			"title": "A2",
-			"name": "Hello, World!"
+			"name": "Department Summary",
+			"link": "assignments/a2#summary"
 		},
 		{
 			"date": "2025-04-28",
@@ -274,17 +278,18 @@
 			"date": "2025-05-04",
 			"type": "assignment",
 			"title": "A2",
-			"name": "Course Report"
+			"name": "Responsive Report",
+			"link": "assignments/a2#responsive"
 		},
 		{
 			"date": "2025-05-05",
 			"type": "lecture",
-			"title": "Programming: TBD"
+			"title": "Programming: Chrome Extensions"
 		},
 		{
 			"date": "2025-05-05",
 			"type": "demo",
-			"title": "Live Demo: TBD"
+			"title": "Live Demo: Chrome Extensions"
 		},
 		{
 			"date": "2025-05-06",
@@ -307,17 +312,18 @@
 			"date": "2025-05-11",
 			"type": "assignment",
 			"title": "A2",
-			"name": "Full Project"
+			"name": "Filter and Search",
+			"link": "assignments/a2#filter"
 		},
 		{
 			"date": "2025-05-12",
 			"type": "lecture",
-			"title": "Programming: TBD"
+			"title": "Programming: Angular and Interface Libraries"
 		},
 		{
 			"date": "2025-05-12",
 			"type": "demo",
-			"title": "Live Demo: TBD"
+			"title": "Live Demo: Angular and Interface Libraries"
 		},
 		{
 			"date": "2025-05-13",
