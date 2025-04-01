@@ -112,7 +112,9 @@
 		{
 			"date": "2025-04-09",
 			"type": "lecture",
-			"title": "Practice: Frontend vs. Backend Development"
+			"title": "Practice: Frontend vs. Backend Development",
+			"slides": "lectures/04_09_25-frontend_backend.pdf",
+			"link": "https://uci.yuja.com/V/Video?v=12692060&node=55362325&a=162924254"
 		},
 		{
 			"date": "2025-04-09",
