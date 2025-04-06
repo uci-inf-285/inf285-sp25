@@ -134,7 +134,9 @@
 		{
 			"date": "2025-04-14",
 			"type": "lecture",
-			"title": "Programming: Variables, Loops, & Conditionals in JS"
+			"title": "Programming: Variables, Loops, & Conditionals in JS",
+			"slides": "lectures/04_14_25-intro_js.pdf",
+			"link": "https://uci.yuja.com/V/Video?v=12725995&node=55474713&a=117290744"
 		},
 		{
 			"date": "2025-04-14",
