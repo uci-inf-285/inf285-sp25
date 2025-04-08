@@ -151,7 +151,9 @@
 		{
 			"date": "2025-04-16",
 			"type": "lecture",
-			"title": "Practice: Responsive and Adaptive Design"
+			"title": "Practice: Responsive and Adaptive Design",
+			"slides": "lectures/04_16_25-responsive_adaptive.pdf",
+			"link": "https://uci.yuja.com/V/Video?v=12743966&node=55519293&a=204159531"
 		},
 		{
 			"date": "2025-04-16",
@@ -201,7 +203,7 @@
 		{
 			"date": "2025-04-23",
 			"type": "lecture",
-			"title": "Practice: Interface Toolkits"
+			"title": "Practice: Libraries and Toolkits"
 		},
 		{
 			"date": "2025-04-23",
@@ -304,7 +306,7 @@
 		{
 			"date": "2025-05-07",
 			"type": "lecture",
-			"title": "Practice: Data Visualization"
+			"title": "Practice: Post-CHI Report, Maybe?"
 		},
 		{
 			"date": "2025-05-07",
