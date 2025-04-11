@@ -23,7 +23,7 @@ export class CalendarEventComponent {
           this.event[key] = this.defaults[key];
         } else if(typeof this.defaults[key] === 'object'){
           Object.keys(this.defaults[key]).forEach((innerKey) => {
-            if(!(innerKey in this.event[key])) {
+            if(this.event[key] && !(innerKey in this.event[key])) {
               this.event[key][innerKey] = this.defaults[key][innerKey];
             }
           });
