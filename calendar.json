@@ -142,7 +142,8 @@
 		{
 			"date": "2025-04-14",
 			"type": "demo",
-			"title": "Live Demo: Variables, Loops, Conditionals"
+			"title": "Live Demo: Variables, Loops, Conditionals",
+			"demo": "demos/04_14_25-intro_js.zip"
 		},
 		{
 			"date": "2025-04-15",
@@ -178,22 +179,27 @@
 		{
 			"date": "2025-04-21",
 			"type": "lecture",
-			"title": "Programming: Data Structures & Functions in JS"
+			"title": "Programming: Data Structures & Functions in JS",
+			"slides": "lectures/04_21_25-structures_functions_js.pdf",
+			"link": "https://uci.yuja.com/V/Video?v=12766165&node=55596709&a=147096857"
 		},
 		{
 			"date": "2025-04-21",
 			"type": "demo",
-			"title": "Recorded Demo: Data Structures & Functions"
+			"title": "Recorded Demo: Data Structures & Functions",
+			"place": null,
+			"demo": "demos/04_21_25-structures_functions_js.zip",
+			"link": "https://uci.yuja.com/V/Video?v=12766328&node=55597133&a=212047883"
+		},
+		{
+			"date": "2025-04-21",
+			"type": "officehours_ziqi",
+			"title": "Ziqi Office Hours"
 		},
 		{
 			"date": "2025-04-22",
 			"type": "absence",
 			"title": "Daniel, Weijun, Ziqi in Japan"
-		},
-		{
-			"date": "2025-04-22",
-			"type": "officehours_ziqi",
-			"title": "Maybe Office Hours?"
 		},
 		{
 			"date": "2025-04-23",
@@ -208,7 +214,7 @@
 		{
 			"date": "2025-04-23",
 			"type": "officehours_daniel",
-			"title": "Maybe Office Hours?"
+			"title": "Daniel Office Hours"
 		},
 		{
 			"date": "2025-04-24",
@@ -216,14 +222,14 @@
 			"title": "Daniel, Weijun, Ziqi in Japan"
 		},
 		{
-			"date": "2025-04-25",
-			"type": "absence",
-			"title": "Daniel, Weijun, Ziqi in Japan"
+			"date": "2025-04-24",
+			"type": "officehours_weijun",
+			"title": "Weijun Office Hours"
 		},
 		{
 			"date": "2025-04-25",
-			"type": "officehours_weijun",
-			"title": "Maybe Office Hours?"
+			"type": "absence",
+			"title": "Daniel, Weijun, Ziqi in Japan"
 		},
 		{
 			"date": "2025-04-26",
@@ -255,7 +261,8 @@
 		{
 			"date": "2025-04-28",
 			"type": "demo",
-			"title": "Recorded Demo: DOM Manipulation"
+			"title": "Recorded Demo: DOM Manipulation",
+			"place": null
 		},
 		{
 			"date": "2025-04-29",
