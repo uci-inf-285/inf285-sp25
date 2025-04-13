@@ -209,7 +209,9 @@
 		{
 			"date": "2025-04-23",
 			"type": "lecture",
-			"title": "Practice: Libraries and Toolkits"
+			"title": "Practice: Libraries and Toolkits",
+			"slides": "lectures/04_23_25-libraries_toolkits.pdf",
+			"link": "https://uci.yuja.com/V/Video?v=12778355&node=55624826&a=150474124"
 		},
 		{
 			"date": "2025-04-23",
@@ -287,7 +289,12 @@
 		{
 			"date": "2025-05-02",
 			"type": "absence",
-			"title": "Daniel, Weijun, Ziqi @ CHI"
+			"title": "Weijun, Ziqi in Japan"
+		},
+		{
+			"date": "2025-05-02",
+			"type": "officehours_daniel",
+			"title": "Maybe Daniel office hours?"
 		},
 		{
 			"date": "2025-05-04",
