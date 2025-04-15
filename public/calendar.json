@@ -143,7 +143,8 @@
 			"date": "2025-04-14",
 			"type": "demo",
 			"title": "Live Demo: Variables, Loops, Conditionals",
-			"demo": "demos/04_14_25-intro_js.zip"
+			"demo": "demos/04_14_25-intro_js.zip",
+			"link": "https://uci.zoom.us/rec/share/I-jYY3dmdiSFOLFD3Pvlkt-Aw2cnUcmH_mGfch8lvxjvc13__4T7UgcWGCNoFico.O55MTgVNuFInJsxR"
 		},
 		{
 			"date": "2025-04-15",
@@ -244,26 +245,14 @@
 			"title": "Daniel, Weijun, Ziqi @ CHI"
 		},
 		{
-			"date": "2025-04-27",
-			"type": "assignment",
-			"title": "A2",
-			"name": "Department Summary",
-			"link": "assignments/a2#summary"
-		},
-		{
 			"date": "2025-04-28",
 			"type": "absence",
 			"title": "Daniel, Weijun, Ziqi @ CHI"
 		},
 		{
 			"date": "2025-04-28",
-			"type": "lecture",
-			"title": "Programming: DOM Manipulation"
-		},
-		{
-			"date": "2025-04-28",
 			"type": "demo",
-			"title": "Recorded Demo: DOM Manipulation",
+			"title": "Recorded Demo: More JavaScript Practice",
 			"place": null
 		},
 		{
@@ -300,18 +289,18 @@
 			"date": "2025-05-04",
 			"type": "assignment",
 			"title": "A2",
-			"name": "Responsive Report",
-			"link": "assignments/a2#responsive"
+			"name": "Department Summary",
+			"link": "assignments/a2#summary"
 		},
 		{
 			"date": "2025-05-05",
 			"type": "lecture",
-			"title": "Programming: Chrome Extensions"
+			"title": "Programming: DOM Manipulation"
 		},
 		{
 			"date": "2025-05-05",
 			"type": "demo",
-			"title": "Live Demo: Chrome Extensions"
+			"title": "Live Demo: DOM Manipulation"
 		},
 		{
 			"date": "2025-05-06",
@@ -319,12 +308,12 @@
 		},
 		{
 			"date": "2025-05-07",
-			"type": "lecture",
-			"title": "Practice: Post-CHI Report, Maybe?"
+			"type": "officehours_daniel"
 		},
 		{
 			"date": "2025-05-07",
-			"type": "officehours_daniel"
+			"type": "lecture",
+			"title": "Practice: Databases and Storage"
 		},
 		{
 			"date": "2025-05-09",
@@ -334,18 +323,18 @@
 			"date": "2025-05-11",
 			"type": "assignment",
 			"title": "A2",
-			"name": "Filter and Search",
-			"link": "assignments/a2#filter"
+			"name": "Responsive Report",
+			"link": "assignments/a2#responsive"
 		},
 		{
 			"date": "2025-05-12",
 			"type": "lecture",
-			"title": "Programming: Angular and Interface Libraries"
+			"title": "Programming: Chrome Extensions"
 		},
 		{
 			"date": "2025-05-12",
 			"type": "demo",
-			"title": "Live Demo: Angular and Interface Libraries"
+			"title": "Live Demo: Chrome Extensions"
 		},
 		{
 			"date": "2025-05-13",
@@ -354,7 +343,7 @@
 		{
 			"date": "2025-05-14",
 			"type": "lecture",
-			"title": "Practice: Databases and Storage"
+			"title": "Practice: Logins, Authentication, Personalization"
 		},
 		{
 			"date": "2025-05-14",
@@ -365,8 +354,21 @@
 			"type": "officehours_weijun"
 		},
 		{
+			"date": "2025-05-18",
+			"type": "assignment",
+			"title": "A2",
+			"name": "Filter and Search",
+			"link": "assignments/a2#filter"
+		},
+		{
 			"date": "2025-05-19",
-			"type": "officehours_daniel"
+			"type": "lecture",
+			"title": "Programming: Angular and Interface Libraries"
+		},
+		{
+			"date": "2025-05-19",
+			"type": "demo",
+			"title": "Live Demo: Angular and Interface Libraries"
 		},
 		{
 			"date": "2025-05-20",
@@ -375,7 +377,7 @@
 		{
 			"date": "2025-05-21",
 			"type": "lecture",
-			"title": "Practice: Logins, Authentication, Personalization"
+			"title": "Practice: Large Language Models"
 		},
 		{
 			"date": "2025-05-21",
@@ -403,7 +405,7 @@
 		{
 			"date": "2025-05-28",
 			"type": "lecture",
-			"title": "Practice: Large Language Models"
+			"title": "Practice: Beyond Web and Mobile"
 		},
 		{
 			"date": "2025-05-28",
@@ -424,7 +426,7 @@
 		{
 			"date": "2025-06-04",
 			"type": "lecture",
-			"title": "Practice: Beyond Web and Mobile"
+			"title": "Practice: Post-CHI Report, Maybe?"
 		},
 		{
 			"date": "2025-06-04",
