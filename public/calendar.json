@@ -166,13 +166,6 @@
 			"type": "officehours_weijun"
 		},
 		{
-			"date": "2025-04-20",
-			"type": "assignment",
-			"title": "A1",
-			"name": "Full Project",
-			"link": "assignments/a1#final"
-		},
-		{
 			"date": "2025-04-21",
 			"type": "absence",
 			"title": "Daniel, Weijun in Japan"
@@ -218,6 +211,13 @@
 			"date": "2025-04-23",
 			"type": "officehours_daniel",
 			"title": "Daniel Office Hours"
+		},
+		{
+			"date": "2025-04-23",
+			"type": "assignment",
+			"title": "A1",
+			"name": "Full Project",
+			"link": "assignments/a1#final"
 		},
 		{
 			"date": "2025-04-24",
