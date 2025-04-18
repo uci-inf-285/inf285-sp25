@@ -227,7 +227,10 @@
 		{
 			"date": "2025-04-24",
 			"type": "officehours_weijun",
-			"title": "Weijun Office Hours"
+			"title": "Weijun Office Hours",
+			"place": {
+				"time": "15:00"
+			}
 		},
 		{
 			"date": "2025-04-25",
