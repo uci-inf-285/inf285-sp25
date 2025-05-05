@@ -323,7 +323,9 @@
 		{
 			"date": "2025-05-07",
 			"type": "lecture",
-			"title": "Practice: Databases and Storage"
+			"title": "Practice: Databases and Storage",
+			"slides": "lectures/05_07_25-databases_storage.pdf",
+			"link": "https://uci.yuja.com/V/Video?v=12969657&node=56097085&a=11790716"
 		},
 		{
 			"date": "2025-05-09",
