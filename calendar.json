@@ -304,13 +304,14 @@
 			"type": "lecture",
 			"title": "Programming: DOM Manipulation",
 			"slides": "lectures/05_05_25-dom_manipulation.pdf",
-			"link": "https://uci.yuja.com/V/Video?v=12842615&node=55796576&a=30809033",
-			"demo": "demos/05_05_25-dom_manipulation.zip"
+			"link": "https://uci.yuja.com/V/Video?v=12842615&node=55796576&a=30809033"
 		},
 		{
 			"date": "2025-05-05",
 			"type": "demo",
-			"title": "Live Demo: DOM Manipulation"
+			"title": "Live Demo: DOM Manipulation",
+			"demo": "demos/05_05_25-dom_manipulation.zip",
+			"link": "https://uci.zoom.us/rec/share/tZFBCE5h7VTOgBTSu2878_oEgkaE4gXez7SwuymBPswOw9tny2DLHe8yrYPVIQJA.PMvOVDyU-1N8HyIT"
 		},
 		{
 			"date": "2025-05-06",
