@@ -342,12 +342,15 @@
 		{
 			"date": "2025-05-12",
 			"type": "lecture",
-			"title": "Programming: Chrome Extensions"
+			"title": "Programming: Browser Extensions",
+			"slides": "lectures/05_12_25-browser_extensions.pdf",
+			"link": "https://uci.yuja.com/V/Video?v=12987840&node=56251083&a=102966810"
 		},
 		{
 			"date": "2025-05-12",
 			"type": "demo",
-			"title": "Live Demo: Chrome Extensions"
+			"title": "Live Demo: Browser Extensions",
+			"demo": "demos/05_12_25-browser_extensions.zip"
 		},
 		{
 			"date": "2025-05-13",
