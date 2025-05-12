@@ -406,12 +406,6 @@
 			"type": "officehours_weijun"
 		},
 		{
-			"date": "2025-05-25",
-			"type": "assignment",
-			"title": "A3",
-			"name": "Code Check-in"
-		},
-		{
 			"date": "2025-05-26",
 			"type": "holiday",
 			"title": "Memorial Day"
@@ -419,6 +413,13 @@
 		{
 			"date": "2025-05-27",
 			"type": "officehours_ziqi"
+		},
+		{
+			"date": "2025-05-28",
+			"type": "assignment",
+			"title": "A3",
+			"name": "Fake University Extension",
+			"link": "assignments/a3#fakeuniversity"
 		},
 		{
 			"date": "2025-05-28",
@@ -458,7 +459,8 @@
 			"date": "2025-06-08",
 			"type": "assignment",
 			"title": "A3",
-			"name": "Full Project"
+			"name": "Wikipedia Extension",
+			"link": "assignments/a3#wikipedia"
 		}
 	]
 }
