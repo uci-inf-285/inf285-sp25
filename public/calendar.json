@@ -382,12 +382,15 @@
 		{
 			"date": "2025-05-19",
 			"type": "lecture",
-			"title": "Programming: Angular and Interface Libraries"
+			"title": "Programming: Interface Frameworks",
+			"slides": "lectures/05_19_25-interface_frameworks.pdf",
+			"demo": "demos/05_19_25-interface_frameworks.zip",
+			"link": "https://uci.yuja.com/V/Video?v=13024380&node=56399319&a=4217862"
 		},
 		{
 			"date": "2025-05-19",
 			"type": "demo",
-			"title": "Live Demo: Angular and Interface Libraries"
+			"title": "Live Demo: Interface Frameworks"
 		},
 		{
 			"date": "2025-05-20",
