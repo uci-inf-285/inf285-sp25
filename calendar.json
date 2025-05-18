@@ -384,13 +384,13 @@
 			"type": "lecture",
 			"title": "Programming: Interface Frameworks",
 			"slides": "lectures/05_19_25-interface_frameworks.pdf",
-			"demo": "demos/05_19_25-interface_frameworks.zip",
 			"link": "https://uci.yuja.com/V/Video?v=13024380&node=56399319&a=4217862"
 		},
 		{
 			"date": "2025-05-19",
 			"type": "demo",
-			"title": "Live Demo: Interface Frameworks"
+			"title": "Live Demo: Interface Frameworks",
+			"demo": "demos/05_19_25-interface_frameworks.zip"
 		},
 		{
 			"date": "2025-05-20",
@@ -399,7 +399,9 @@
 		{
 			"date": "2025-05-21",
 			"type": "lecture",
-			"title": "Practice: Large Language Models"
+			"title": "Practice: Large Language Models and Generative AI",
+			"slides": "lectures/05_21_25-llms_genai.pdf",
+			"link": "https://uci.yuja.com/V/Video?v=13047881&node=56485365&a=112287954"
 		},
 		{
 			"date": "2025-05-21",
@@ -440,7 +442,8 @@
 		},
 		{
 			"date": "2025-06-02",
-			"type": "officehours_daniel"
+			"type": "lecture",
+			"title": "Programming: Language Roles"
 		},
 		{
 			"date": "2025-06-03",
@@ -449,7 +452,7 @@
 		{
 			"date": "2025-06-04",
 			"type": "lecture",
-			"title": "Practice: Post-CHI Report, Maybe?"
+			"title": "Practice: Developer Handoffs"
 		},
 		{
 			"date": "2025-06-04",
