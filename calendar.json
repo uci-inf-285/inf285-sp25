@@ -446,12 +446,15 @@
 		{
 			"date": "2025-06-02",
 			"type": "lecture",
-			"title": "Programming: Language Roles"
+			"title": "Programming: Language Roles",
+			"slides": "lectures/06_02_25-language_roles.pdf",
+			"link": "https://uci.yuja.com/V/Video?v=13074796&node=56709006&a=206783019"
 		},
 		{
 			"date": "2025-06-02",
 			"type": "demo",
-			"title": "Live Demo: Language Roles"
+			"title": "Live Demo: Language Roles",
+			"demo": "demos/06_02_25-language_roles.zip"
 		},
 		{
 			"date": "2025-06-03",
