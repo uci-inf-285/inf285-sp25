@@ -463,7 +463,9 @@
 		{
 			"date": "2025-06-04",
 			"type": "lecture",
-			"title": "Practice: Developer Handoffs"
+			"title": "Practice: Developer Handoffs",
+			"slides": "lectures/06_04_25-developer_handoffs.pdf",
+			"link": "https://uci.yuja.com/V/Video?v=13094916&node=56812359&a=180354540"
 		},
 		{
 			"date": "2025-06-04",
