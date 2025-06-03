@@ -391,7 +391,7 @@
 			"type": "demo",
 			"title": "Live Demo: Interface Frameworks",
 			"demo": "demos/05_19_25-interface_frameworks.zip",
-			"recording": "https://uci.zoom.us/rec/share/8Q8TGMr0PyS9QyVnJ2GNhAfQ-5e6JTv-HGrsRkGdVS_omZ1TnXsCqcvBH71oNMPx.siFgAi8vCtb1j9uL"
+			"link": "https://uci.zoom.us/rec/share/8Q8TGMr0PyS9QyVnJ2GNhAfQ-5e6JTv-HGrsRkGdVS_omZ1TnXsCqcvBH71oNMPx.siFgAi8vCtb1j9uL"
 		},
 		{
 			"date": "2025-05-20",
@@ -454,7 +454,8 @@
 			"date": "2025-06-02",
 			"type": "demo",
 			"title": "Live Demo: Language Roles",
-			"demo": "demos/06_02_25-language_roles.zip"
+			"demo": "demos/06_02_25-language_roles.zip",
+			"link": "https://uci.zoom.us/rec/share/eXKQZUbJFxMaRn2weLbhfxXlfS_P1OTYwB-f3DeEpWuwOkmEws5NucIPOILlguVz.E5tsOJWR36JkdOEt"
 		},
 		{
 			"date": "2025-06-03",
